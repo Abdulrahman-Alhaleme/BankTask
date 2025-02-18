@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DDEB9D;
+  height: 100vh;
+  color: beige;
+}
+.RequestingForm{
+  height: 100%;
+  max-height: 500px;
+  width: 100%;
+  max-width: 900px;
+  background-color: #A0C878;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.RequestingForm input,select{
+  width: 100%;
+}
+.PopUp{
+  height: 200px;
+  width: 800px;
+  color: white;
+  background-color: black;
+}
